@@ -66,6 +66,8 @@ build out any helper methods if needed.
   - Return name
   - Names must be of type `str`
   - Names must be between 1 and 15 characters, inclusive
+  - Should not be able to change after the NationalPark is created
+
 
 #### NationalPark
 
@@ -123,4 +125,4 @@ build out any helper methods if needed.
 - `NationalPark total_visits()`
   - Returns the total number of times that park has been visited
 - `NationalPark best_visitor()`
-  - Returns the Visitor 
+  - Returns the Visitor that has visited this park the most

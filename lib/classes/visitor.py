@@ -26,6 +26,7 @@ class Visitor:
             if trip.visitor == self:
                 parklist.append(trip.national_park)
         return list(set(parklist))
+        
     def create_trip(self, national_park, start_date, end_date):
         from .trip import Trip
         return Trip(self,national_park,start_date,end_date)
